@@ -1,0 +1,6 @@
+sudo docker pull devopsdockeruh/ports_exercise
+sudo docker run -p 1234:80 devopsdockeruh/ports_exercise
+
+To access the content, open browser and just go localhost:1234
+
+

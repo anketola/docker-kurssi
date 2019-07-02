@@ -1,0 +1,9 @@
+sudo docker pull devopsdockeruh/first_volume_exercise
+sudo docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+
+Not asked (?) but the logs.txt contains the following:
+
+Secret message is:
+"Volume bind mount is easy"
+
+
