@@ -1,0 +1,5 @@
+sudo docker pull openjdk
+git clone https://github.com/docker-hy/spring-example-project.git
+sudo docker build -t springdocker .
+sudo docker run -d -p 8080:8080 springdocker
+
