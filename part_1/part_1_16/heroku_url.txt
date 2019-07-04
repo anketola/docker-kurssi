@@ -1,0 +1,3 @@
+The application can be found running on Heroku at:
+
+https://heroku-example-docker.herokuapp.com/

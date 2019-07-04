@@ -1,0 +1,5 @@
+sudo docker pull devopsdockeruh/heroku-example
+heroku container:login
+sudo docker tag devopsdockeruh/heroku-example registry.heroku.com/heroku-example-docker/web
+sudo docker push registry.heroku.com/heroku-example-docker/web
+heroku container:release web --app heroku-example-docker
