@@ -1,0 +1,11 @@
+The application is a tiny Flask-based web application I coded fast for the assignments.
+
+Docker hub link is:
+
+https://hub.docker.com/r/aketla/docker-exercise-flask
+
+The github repository for the files is the following:
+
+https://github.com/anketola/flask-docker 
+
+Same README-information is in the Docker Hub description and GitHub repository README.md.

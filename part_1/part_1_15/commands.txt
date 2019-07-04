@@ -1,0 +1,14 @@
+Used to build:
+
+sudo docker build -t docker-exercise-flask .
+
+To test that the container works:
+
+sudo docker run -p 5000:5000 docker-exercise-flask
+
+To push to Docker Hub
+
+sudo docker tag docker-exercise-flask aketla/docker-exercise-flask
+sudo docker login
+sudo docker push aketla/docker-exercise-flask
+
