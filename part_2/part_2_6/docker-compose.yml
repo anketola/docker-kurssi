@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:
+
+  redis:
+    image: redis
+
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=user 
+
+  frontend:
+    image: frontend12
+    ports:
+      - 5000:5000
+    environment:
+      - API_URL=http://localhost:8000
+
+  backend:
+    image: backend12
+    volumes:
+      - ./logs.txt:/usr/app/logs.txt
+    ports:
+      - 8000:8000
+    environment:
+      - FRONT_URL=http://localhost:5000
+      - REDIS=redis
+      - REDIS_PORT=6379
+      - DB_USERNAME=user
+      - DB_PASSWORD=password
+      - DB_NAME=user
+      - DB_HOST=postgres
+
