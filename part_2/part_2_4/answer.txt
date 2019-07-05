@@ -1,0 +1,5 @@
+The assignment says only "Your task is to scale the compute containers so that the button in the application turns green."
+
+That was achieved just by using the command
+
+sudo docker-compose up --scale compute=3
