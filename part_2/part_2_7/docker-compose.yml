@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+
+  frontend:
+    image: machinefront
+    ports:
+      - 3000:3000
+
+  backend:
+    image: machineback
+    ports:
+      - 5000:5000
+    volumes:
+      - ./src/model:/src/model
+
+  training:
+    image: machinetraining
+    volumes:
+      - ./src/model:/src/model
+      - ./src/imgs:/src/imgs
