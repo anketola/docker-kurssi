@@ -12,4 +12,4 @@ Exercises done: 2.1 - 2.9. The one allowed exercise skip per part was 2.10.
 
 ### Part 3:
 
-[WIP]
+Exercises done: 3.1 - 3.7. The one allowed exercise skip per part was 3.8.
