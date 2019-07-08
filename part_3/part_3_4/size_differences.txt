@@ -1,0 +1,11 @@
+Backend image size after exercise 3.1 optimization:
+backend12 latest 3bc56f43801c 43 hours ago 324MB
+
+Frontend image size after exercise 3.1 optimization:
+frontend12 latest 1a9d2938beac 43 hours ago 421MB
+
+Backend image size after this exercise:
+backend12 latest 4409207c4ac3 25 seconds ago 138MB
+
+Frontend image size after this exercise:
+frontend12 latest 1ad9f698b0ca 13 seconds ago 234MB
