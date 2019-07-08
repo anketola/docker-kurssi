@@ -1,0 +1,11 @@
+Original frontend:
+frontend12 latest 8acf982e80e1 3 days ago 523MB
+
+Original backend:
+backend12 latest fb53b06eb174 3 days ago 427MB
+
+Frontend after optimization:
+frontend12 latest 5798d1cbdde6 6 seconds ago 420MB
+
+Backend after optimization:
+backend12 latest 374022de56d About a minute ago 324MB

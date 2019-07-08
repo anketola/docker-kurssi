@@ -1,0 +1,7 @@
+The content in the Dockerfile seemed to be enought with the test content I downloaded.
+The "official" Dockefile on Docker Hub was apparently "FROM alpine:3.9". This was based on ubuntu:16.04
+
+
+The commands to build and run:
+sudo docker build -t yle-dl .
+sudo docker run -it -v $(pwd)/videos:/videos yle-dl [insert here video URL]
