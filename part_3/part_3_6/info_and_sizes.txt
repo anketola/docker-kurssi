@@ -1,0 +1,15 @@
+As the Dockerfile for this assignment was chosen the one created in assignment 1.15 for own project.
+
+The base was switched from the previous ubuntu to python:3.7.3-alpine3.10. The run commands were chained and switched
+whenever needed for Alpine. The startup in root mode was removed.
+
+Sizes before and after
+
+Before:
+aketla/docker-exercise-flask latest 233a6bc3a2bc 3 days ago 497MB
+
+After:
+docker-flask-optimized latest d9713e1a2e04 About a minute ago 130MB
+
+Runs in port 5000, so might want to launch it with:
+sudo docker run -p 5000:5000 docker-flask-optimized
